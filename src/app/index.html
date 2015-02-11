@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="ars">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <title>ars</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <!-- inject:vendor:css -->
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- endinject -->
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <h1><a href="">ARS</a></h1>
+            <div ng-include="'views/partials/nav.html'"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <ng-view></ng-view>
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+    <!-- inject:vendor:js -->
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-route/angular-route.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="/app.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
