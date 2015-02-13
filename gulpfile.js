@@ -124,9 +124,17 @@ gulp.task('assets', function () {
 });
 
 /**
+ * Views
+ */
+gulp.task('views', function () {
+  return gulp.src('./src/app/views/**')
+    .pipe(gulp.dest('./dist/views'));
+});
+
+/**
  * Dist
  */
-gulp.task('dist', ['vendors', 'assets', 'styles-dist', 'scripts-dist'], function () {
+gulp.task('dist', ['views','vendors', 'assets', 'styles-dist', 'scripts-dist'], function () {
   return gulp.src('./src/app/index.html')
     .pipe(g.inject(gulp.src('./dist/vendors.min.{js,css}'), {ignorePath: 'dist', starttag: '<!-- inject:vendor:{{ext}} -->'}))
     .pipe(g.inject(gulp.src('./dist/' + bower.name + '.min.{js,css}'), {ignorePath: 'dist'}))
