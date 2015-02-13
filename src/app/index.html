@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="pt-br" />
     <title>ars</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
     <!-- inject:vendor:css -->
     <!-- endinject -->
     <!-- inject:css -->
@@ -14,8 +13,13 @@
   <body>
     <header>
         <div class="container">
-            <h1><a href="">ARS</a></h1>
-            <div ng-include="'views/partials/nav.html'"></div>
+            <h1 class="logo">
+                <a href="#/">
+                    <img src="assets/images/logo.png" alt="ARS - Agência Reguladora de Sinistro"/>
+                    <strong>ARS - Agência Reguladora de Sinistro</strong>
+                </a>
+            </h1>
+            <div ng-include="'views/partials/nav.html'" class="nav"></div>
         </div>
     </header>
 
@@ -34,6 +38,7 @@
     <!-- endinject -->
     <!-- inject:js -->
     <script src="/app.js"></script>
+    <script src="/ars-templates.js"></script>
     <!-- endinject -->
   </body>
 </html>

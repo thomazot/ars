@@ -1,12 +1,44 @@
-body {
-  padding: 50px;
-  font: 20px/150% "Helvetica Neue", "Lucida Grande", Verdana, sans-serif;
-  color: #666;
-  background: #fcfcfc;
+body {font-family: 'Open Sans', sans-serif;}
+img {max-width:100%;}
+.container {width:980px;margin: 0 auto}
+
+.logo {
+  padding-top:30px;
+  display:block;
+  float:left;
+  strong {display:none}
 }
 
-input,
-textarea,
-button {
-  font: inherit;
+header {
+  background: #1b325f;
+  box-shadow: inset 0 8px 0 #3a89c9;
+  height: 110px;
+  .nav {
+    display:block;
+    font-size:0;
+    text-align: right;
+    margin-left:150px;
+    padding-top:45px;
+    li {
+      font-size: 1rem;
+      display: inline-block;
+      a {
+        display:block;
+        font-size: 0.875rem;
+        line-height:30px;
+        height:30px;
+        padding: 0 20px;
+        border-left: solid 1px #fff;
+        text: {
+          transform: uppercase;
+          decoration: none;
+        }
+        color:#fff;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:first-child a {border:0;}
+    }
+  }
 }
