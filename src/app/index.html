@@ -5,7 +5,8 @@
     <meta http-equiv="content-language" content="pt-br" />
     <title>ars</title>
     <!-- inject:vendor:css -->
-    <!-- endinject -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- endinject -->
     <!-- inject:css -->
     <link rel="stylesheet" href="/css/app.css">
     <!-- endinject -->
@@ -19,18 +20,56 @@
                     <strong>ARS - Agência Reguladora de Sinistro</strong>
                 </a>
             </h1>
-            <div ng-include="'views/partials/nav.html'" class="nav"></div>
+            <nav class="nav">
+                <ul>
+                    <li ng-class="{active: activetab == '/quemsomos'}" ><a href="#/quemsomos">Quem Somos</a></li>
+                    <li ng-class="{active: activetab == '/dpvat'}" ><a href="#/dpvat">Sobre o DPVAT</a></li>
+                    <li ng-class="{active: activetab == '/formularios'}"><a href="#/formularios">Formulários</a></li>
+                    <li ng-class="{active: activetab == '/contato'}"><a href="#/contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <ng-view></ng-view>
-        </div>
+        <ng-view></ng-view>
     </main>
 
     <footer>
-        
+        <div class="container">
+            <h2>
+                <a href="#/">
+                    <img src="assets/images/logo.png" alt="ARS - Agência Reguladora de Sinistro"/>
+                    <strong>ARS - Agência Reguladora de Sinistro</strong>
+                </a>
+            </h2>
+
+            <div class="info">
+                <p>Agência Reguladora de Sinistros DPVAT</p>
+                <p>Rua Bahia, 36 - Sala 23 - Marília SP | (14) 3316 3333</p>
+                <p><a href="mailto:contato@arsdpvat.com.br">contato@arsdpvat.com.br</a></p>
+
+                <div class="social">
+                    <ul>
+                        <li class="fb"><a href="">Facebook</a></li>
+                        <li class="tt"><a href="">Twitter</a></li>
+                        <li class="gp"><a href="">Google Plus</a></li>
+                        <li class="yt"><a href="">Youtube</a></li>
+                        <li class="fc"><a href="">Flickr</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav>
+                <h3>Mapa do Site</h3>
+                <ul>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Nossos Serviços</a></li>
+                    <li><a href="">Formulários</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
     <!-- inject:vendor:js -->
     <script src="/angular/angular.js"></script>
