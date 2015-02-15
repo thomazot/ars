@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1586140b-60df-476d-9866-71e0bd7c843a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/styles/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/contact-form.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/views/partials/nav.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/styles/_base.scss" afterPath="$PROJECT_DIR$/src/app/styles/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.js" afterPath="$PROJECT_DIR$/src/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.scss" afterPath="$PROJECT_DIR$/src/app/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/views/contato.html" afterPath="$PROJECT_DIR$/src/app/views/contato.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/views/dpvat.html" afterPath="$PROJECT_DIR$/src/app/views/dpvat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/views/formularios.html" afterPath="$PROJECT_DIR$/src/app/views/formularios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/views/home.html" afterPath="$PROJECT_DIR$/src/app/views/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.html" afterPath="$PROJECT_DIR$/src/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/views/quemsomos.html" afterPath="$PROJECT_DIR$/src/app/views/quemsomos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ars.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +50,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5145798" vertical-offset="690" max-vertical-offset="1515">
-              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.1509434" vertical-offset="902" max-vertical-offset="1485">
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/contact-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="615">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/app/contact-form.php" />
         <option value="$PROJECT_DIR$/src/app/views/contato.html" />
         <option value="$PROJECT_DIR$/src/app/index.html" />
+        <option value="$PROJECT_DIR$/dist/contact-form.php" />
         <option value="$PROJECT_DIR$/src/app/app.js" />
       </list>
     </option>
@@ -198,6 +196,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -211,6 +223,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/app/styles" />
     </key>
   </component>
@@ -592,10 +605,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/contact-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="615">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5145798" vertical-offset="690" max-vertical-offset="1515">
-          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.1509434" vertical-offset="902" max-vertical-offset="1485">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding />
         </state>
       </provider>

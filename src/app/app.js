@@ -64,7 +64,6 @@ angular.module('ars', [
     $rootScope.submit = function(contactform) {
         $rootScope.submitted = true;
         $rootScope.submitButtonDisabled = true;
-        console.log($.param($rootScope.formData));
         if (contactform.$valid) {
             $http({
                 method  : 'POST',
@@ -72,7 +71,6 @@ angular.module('ars', [
                 data    : $.param($rootScope.formData),  //param method from jQuery
                 headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  //set the headers so angular passing info as form data (not request payload)
             }).success(function(data){
-                console.log(data);
                 if (data.success) { //success comes from the return json object
                     $rootScope.submitButtonDisabled = true;
                     $rootScope.resultMessage = data.message;
