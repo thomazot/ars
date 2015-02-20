@@ -49,22 +49,22 @@ label {
 }
 
 .ico-cobertura:before {
-    background:url(../assets/images/bg.png) no-repeat -60px -110px;
-    content: '';
-    display:inline-block;
-    vertical-align: middle;
-    width:22px;
-    height:26px;
-    margin-right:10px;
-}
-
-.ico-form:before {
     background:url(../assets/images/bg.png) no-repeat -100px -70px;
     content: '';
     display:inline-block;
     vertical-align: middle;
     width:35px;
     height:35px;
+    margin-right:10px;
+}
+
+.ico-form:before {
+    background:url(../assets/images/bg.png) no-repeat -60px -110px;
+    content: '';
+    display:inline-block;
+    vertical-align: middle;
+    width:22px;
+    height:26px;
     margin-right:10px;
 }
 
@@ -142,7 +142,7 @@ a {
 }
 
 .logo {
-    padding-top:30px;
+    padding-top:20px;
     display:block;
     float:left;
     strong {display:none}
@@ -221,7 +221,7 @@ footer {
     }
     .info {
         margin:{
-            left:230px;
+            left:250px;
             right: 200px;
         }
         padding: 20px 0 10px;
@@ -311,6 +311,7 @@ footer {
         p {
             color:#1b325f;
             font-size:14px;
+	        line-height:20px;
             strong {
                 font-weight:700;
             }
@@ -319,7 +320,7 @@ footer {
         a.link {
             position:absolute;
             bottom:10px;
-            right:0;
+            right:10px;
         }
 
         @include column(4);
